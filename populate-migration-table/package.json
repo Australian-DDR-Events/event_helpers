@@ -1,0 +1,12 @@
+{
+  "name": "populate-migration-table",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "export AWS_PROFILE=profile && node src/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.50.0"
+  }
+}
